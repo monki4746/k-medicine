@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity1">
+
+    <Button
+        android:id="@+id/btn_sys_back"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_gravity="left"
+        android:backgroundTint="@color/snow_white"
+        android:textColor="@color/black"
+        android:text="Back" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:background="@color/trust_blue"
+        android:text="의약품 유통 정보 서비스"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="19dp" />
+
+    <Button
+        android:id="@+id/btn_sys_home"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:backgroundTint="@color/snow_white"
+        android:textColor="@color/black"
+        android:text="Home" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_print_order_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="40dp"
+            android:text="거래 번호  :" />
+
+        <TextView
+            android:id="@+id/text_print_supplier"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="인계사       :" />
+
+        <TextView
+            android:id="@+id/text_print_receiver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="인수사       :" />
+
+        <TextView
+            android:id="@+id/text_print_items_info_summary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:text="물품 정보  :" />
+
+        <Button
+            android:id="@+id/btn_data_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:backgroundTint="@color/brilliant_white"
+            android:drawableLeft="@drawable/icon_data_check"
+            android:layout_gravity="center"
+            android:text="전산 정보 조회"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btn_tax_invoice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/brilliant_white"
+            android:drawableLeft="@drawable/icon_tax_invoice"
+            android:text="세금계산서"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btn_transaction_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/brilliant_white"
+            android:drawableLeft="@drawable/icon_transaction_name"
+            android:layout_gravity="center"
+            android:text="거래명세서"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btn_temp_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/brilliant_white"
+            android:drawableLeft="@drawable/icon_temp_info"
+            android:layout_gravity="center"
+            android:text="온도 정보"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btn_deliver_paper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="90dp"
+            android:backgroundTint="@color/brilliant_white"
+            android:drawableLeft="@drawable/icon_deliver_paper"
+            android:layout_gravity="center"
+            android:text="출하증명서"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btn_done"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/pastel_violet"
+            android:drawableLeft="@drawable/icon_done_outline"
+            android:textColor="@color/black"
+            android:layout_marginStart="120dp"
+            android:layout_marginEnd="120dp"
+            android:text="완료" />
+    </LinearLayout>
+
+</FrameLayout>
